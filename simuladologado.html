@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>GSim</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" class="logo" />
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="equipes.html">EQUIPES</a>
+      <a href="meusimulado.html">MEUS SIMULADOS</a>
+      <a class="btn" href="perfil.html"> <svg xmlns="http://www.w3.org/2000/svg" width="56" height="50"
+          fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+          <path fill-rule="evenodd"
+            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+        </svg></a>
+    </nav>
+
+  </header>
+
+  <main id="area-principal">
+    <div class="mainperguntas ">
+      <div class="abaperg">
+        <div class="filtrobg">
+          <ul class="filtro nav nav-pills">
+            <form>
+              <li class="nav-item float-left pl-2">
+                Componente Curricular: <br>
+                <select name="CompCur" style="width: 110px;">
+                  <option value="matematica">Matemática</option>
+                  <option value="portugues">Português</option>
+                  <option value="biologia">Biologia</option>
+                  <option value="edfisica">Ed. Física</option>
+                  <option value="fisica">Física</option>
+                  <option value="filosofia">Filosofia</option>
+                  <option value="geografia">Geografia</option>
+                  <option value="ingles">Inglês</option>
+                  <option value="artes">Artes</option>
+                  <option value="historia">História</option>
+                  <option value="sociologia">Sociologia</option>
+                </select>
+              </li>
+              <li class="nav-item float-left pl-4">
+                Período: <br>
+                <select name="periodo" style="width: 120px;">
+                  <option value="todos">TODOS</option>
+                  <option value="1ano">1° Ano</option>
+                  <option value="2ano">2° Ano</option>
+                  <option value="3ano">3° Ano</option>
+                </select>
+              </li>
+            
+              <li class="nav-item float-left pl-4 pr-4 pt-4">
+                <a class="btn bg-success" href="atividadeslogado.html">Filtrar</a>
+              </li>
+              <div style="margin-left: 616px;" class="pesquisa nav-item float-left pl-4 pr-4 pt-4">
+                <input class="form-control me-3 mb-2" type="text">
+                <button class="btn bg-success">Pesquisar</button>
+              </div>
+              <li style="margin-left: 20px;" class="nav-item float-left pr-4 pt-4">
+                <a class="btn bg-success" href="entrar.html">Publicar Simulado</a>
+              </li>
+            </form>
+          </ul>
+        </div>
+        <br>
+      </div>
+      <br>
+    </div>
+  </main>
+</body>
+
+</html>
